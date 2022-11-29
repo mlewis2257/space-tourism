@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Barlow:ital,wght@0,300;0,400;1,100&family=Inter:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&family=Titillium+Web:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Barlow:ital,wght@0,300;0,400;1,100&family=Bellefair&family=Inter:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&family=Titillium+Web:ital,wght@0,300;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+body {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.nav-container a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  padding: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.nav-container a:hover {
+  border-bottom: white solid 2px;
+  font-size: 16px;
+  transition: all ease-in 0.4s;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 30px;
+}
+.links-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  position: absolute;
+  backdrop-filter: blur(40.7742px);
+  width: 60vw;
+  height: 90px;
+  left: 610px;
+  top: 40px;
+}
+#nav-links {
+  display: flex;
+  align-self: center;
+  justify-content: flex-start;
+  margin-left: 100px;
+  text-transform: uppercase;
+}
+#section {
+  width: 100vw;
+  display: inline-block;
+}
+.space-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: baseline;
+  align-self: center;
+  justify-content: space-between;
+}
+.paragraph-div {
+  width: 450px;
+  margin-left: 100px;
+  align-self: center;
+}
+.button-div {
+  display: flex;
+  margin-top: 40px;
+  margin-right: 100px;
+  justify-content: center;
+  align-self: center;
+}
+.button-div button {
+  background-color: white;
+  font-family: 'Bellefair', serif;
+  font-size: 40px;
+  border-radius: 50%;
+  width: 275px;
+  height: 275px;
+  cursor: pointer;
+}
+#first-line {
+  font-weight: 400;
+  font-family: 'Barlow';
+  font-size: 28px;
+}
+#space {
+  font-size: 120px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bellefair', serif;
+  text-transform: uppercase;
+}
+#space-paragraph {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+}
